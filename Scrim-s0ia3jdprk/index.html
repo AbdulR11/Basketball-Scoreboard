@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container">
+            
+            
+            <div class="Content">
+                <h3>HOME</h3>
+                <h2 class="counter" id="count-h">0</h2>
+                <button class="btn" id="btn-one" onclick="updateScore('home',1)">+1</button>
+                <button class="btn" id="btn-two" onclick="updateScore('home',2)">+2</button>
+                <button class="btn" id="btn-three" onclick="updateScore('home',3)">+3</button>
+            </div>
+            
+            <div>
+                <button id="reset" onclick="reset()"> RESET </button>
+            </div>    
+            
+            <div class="Content">
+                <h3>GUEST</h3>
+                <h2 class="counter" id="count-g">0</h2>
+                <button class="btn" id="btn-one-g" onclick="updateScore('guest',1)">+1</button>
+                <button class="btn" id="btn-two-g" onclick="updateScore('guest',2)">+2</button>
+                <button class="btn" id="btn-three-g" onclick="updateScore('guest',3)">+3</button>
+            </div>
+        
+
+            
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
